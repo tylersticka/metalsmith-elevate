@@ -7,10 +7,8 @@ _Currently a 0.0.0 release. Use at your own risk!_
 
 ## Installation
 
-**TODO:** Publish on [npm](https://www.npmjs.com/)
-
 ```
-$ npm install tylersticka/metalsmith-elevate
+$ npm install metalsmith-elevate
 ```
 
 ## Usage
