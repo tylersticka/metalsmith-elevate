@@ -20,7 +20,7 @@ var Metalsmith = require('metalsmith');
 var elevate = require('metalsmith-elevate');
 
 var metalsmith = new Metalsmith(__dirname)
-  .use(flatten('blog/*/*.html));
+  .use(elevate('blog/*/*.html'));
 ```
 
 This will move all files matched by `blog/*/*.html` up one directory.
